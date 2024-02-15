@@ -1,0 +1,17 @@
+{
+  "name": "pidwin-fe-take-home-project",
+  "version": "1.0.0",
+  "description": "The Pidwin Frontend Assessment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.4"
+  }
+}
